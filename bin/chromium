@@ -1,0 +1,40 @@
+#!/usr/bin/env sh
+
+# These break things
+#--disable-local-storage
+#--disable-reading-from-canvas
+#--disable-remote-fonts
+
+chromium \
+    --disable-3d-apis \
+    --disable-account-consistency \
+    --disable-auto-reload \
+    --disable-background-networking \
+    --disable-breakpad \
+    --disable-bundled-ppapi-flash \
+    --disable-client-side-phishing-detection \
+    --disable-cloud-import \
+    --disable-component-cloud-policy \
+    --disable-component-update \
+    --disable-crash-reporter \
+    --disable-databases \
+    --disable-datasaver-prompt \
+    --disable-default-apps \
+    --disable-demo-mode \
+    --disable-device-discovery-notifications \
+    --disable-dinosaur-easter-egg \
+    --disable-es3-apis \
+    --disable-file-system \
+    --disable-notifications \
+    --disable-payment-request \
+    --disable-prefetching \
+    --disable-presentation-api \
+    --disable-remote-playback-api \
+    --disable-speech-api \
+    --disable-speech-synthesis-api \
+    --disable-sync \
+    --disable-webgl \
+    --disable-webgl2 \
+    --force-dark-mode \
+    --force-enable-night-mode \
+    --incognito
