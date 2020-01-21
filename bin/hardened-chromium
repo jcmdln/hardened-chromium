@@ -19,7 +19,7 @@ chromium \
     --disable-device-discovery-notifications \
     --disable-dinosaur-easter-egg \
     --disable-es3-apis \
-    --disable-features=AsmJsToWebAssembly,FileHandlingAPI,NativeFileSystemAPI,OmniboxUIExperimentHideSteadyStateUrlScheme,OmniboxUIExperimentHideSteadyStateUrlTrivialSubdomains,StorageAccessAPI,WebAssembly,WebAssemblyStreaming,WebPaymentsExperimentalFeatures,WebRtcHideLocalIpsWithMdns,WebXR,WebXRAnchors
+    --disable-features=AsmJsToWebAssembly,FileHandlingAPI,NativeFileSystemAPI,OmniboxUIExperimentHideSteadyStateUrlScheme,OmniboxUIExperimentHideSteadyStateUrlTrivialSubdomains,StorageAccessAPI,WebAssembly,WebAssemblyStreaming,WebPaymentsExperimentalFeatures,WebRtcHideLocalIpsWithMdns,WebXR,WebXRAnchors \
     --disable-file-system \
     --disable-notifications \
     --disable-payment-request \
@@ -39,4 +39,4 @@ chromium \
     --no-default-browser-check \
     --no-experiments \
     --no-first-run \
-    --no-pings \
+    --no-pings
