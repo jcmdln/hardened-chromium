@@ -5,7 +5,8 @@ than compile a custom version of Chromium, let's disable a bunch of
 things when launching it.
 
 # Usage
-See [bin/chromium](./bin/chromium) for the mock shell-based launcher.
+See [bin/hardened-chromium](./bin/hardened-chromium) for the simple
+shell-based launcher you can throw in your `$PATH`.
 
 # Sources
 For the full list of possible command line switches, please see the
