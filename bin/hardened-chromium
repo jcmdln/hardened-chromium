@@ -30,6 +30,12 @@ chromium \
     --disable-sync \
     --disable-webgl \
     --disable-webgl2 \
+    --force-dark-mode \
+    --no-crash-upload \
+    --no-default-browser-check \
+    --no-experiments \
+    --no-first-run \
+    --no-pings \
     --flag-switches-begin \
     --enable-features=WebContentsForceDark \
     --disable-features=AsmJsToWebAssembly,FileHandlingAPI,NativeFileSystemAPI,StorageAccessAPI,WebAssembly,WebAssemblyStreaming,WebPaymentsExperimentalFeatures,WebRtcHideLocalIpsWithMdns,WebXR,WebXRAnchors \
