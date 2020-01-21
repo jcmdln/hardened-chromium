@@ -32,6 +32,6 @@ chromium \
     --disable-webgl2 \
     --flag-switches-begin \
     --enable-features=WebContentsForceDark \
-    --disable-features=WebAssembly,AsmJsToWebAssembly,WebAssemblyStreaming,FileHandlingAPI,NativeFileSystemAPI,StorageAccessAPI,WebPaymentsExperimentalFeatures,WebXR,WebXRAnchors \
+    --disable-features=AsmJsToWebAssembly,FileHandlingAPI,NativeFileSystemAPI,StorageAccessAPI,WebAssembly,WebAssemblyStreaming,WebPaymentsExperimentalFeatures,WebRtcHideLocalIpsWithMdns,WebXR,WebXRAnchors \
     --flag-switches-end \
     --incognito
