@@ -19,6 +19,7 @@ chromium \
     --disable-device-discovery-notifications \
     --disable-dinosaur-easter-egg \
     --disable-es3-apis \
+    --disable-features=AsmJsToWebAssembly,FileHandlingAPI,NativeFileSystemAPI,OmniboxUIExperimentHideSteadyStateUrlScheme,OmniboxUIExperimentHideSteadyStateUrlTrivialSubdomains,StorageAccessAPI,WebAssembly,WebAssemblyStreaming,WebPaymentsExperimentalFeatures,WebRtcHideLocalIpsWithMdns,WebXR,WebXRAnchors
     --disable-file-system \
     --disable-notifications \
     --disable-payment-request \
@@ -30,14 +31,12 @@ chromium \
     --disable-sync \
     --disable-webgl \
     --disable-webgl2 \
+    --enable-features=WebContentsForceDark \
     --force-dark-mode \
+    --incognito \
+    --js-flags=--no-expose-wasm \
     --no-crash-upload \
     --no-default-browser-check \
     --no-experiments \
     --no-first-run \
     --no-pings \
-    --flag-switches-begin \
-    --enable-features=WebContentsForceDark \
-    --disable-features=AsmJsToWebAssembly,FileHandlingAPI,NativeFileSystemAPI,OmniboxUIExperimentHideSteadyStateUrlScheme,OmniboxUIExperimentHideSteadyStateUrlTrivialSubdomains,StorageAccessAPI,WebAssembly,WebAssemblyStreaming,WebPaymentsExperimentalFeatures,WebRtcHideLocalIpsWithMdns,WebXR,WebXRAnchors \
-    --flag-switches-end \
-    --incognito
